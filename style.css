@@ -25,3 +25,14 @@ body{
      background-color: #f4edea;
      border: 10px solid #f4d1ae;
 }
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+    font-size: 1rem;
+    }
+}
+
