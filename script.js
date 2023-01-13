@@ -7,5 +7,11 @@ function generate(){
 
 var authors = Object.keys(quotes);
 
-console.log(authors);
+var author = authors[Math.floor(Math.random() * authors.length)];
+
+var quote = quotes[author];
+
+document.getElementById("quote").innerHTML = quote;
+document.getElementById("author").innerHTML = author;
+
 }
